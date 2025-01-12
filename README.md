@@ -2,6 +2,7 @@
 HC Open House booth web demo 2025
 
 Can just open directly with live server 
+Note: isnt responsive, designed for my 1260px wide screen so if ther re any problems pls text
 
 Interactive Web Design Activity: Set up laptops where visitors can customise elements of a simple website (e.g., change colours, fonts, and layout), and see the results of that change in real-time. This gives them hands-on experience with CSS and HTML basics.
 
