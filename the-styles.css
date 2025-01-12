@@ -1,0 +1,247 @@
+body {
+    font-family: Noto Sans;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+
+.top-bar {
+    width: 100%;
+    background-color: whitesmoke;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    padding-left: 40px;
+    position: fixed;
+    top: 0;
+    box-shadow: 2px 2px 5px rgb(141, 106, 55);
+    z-index: 10;
+}
+
+.the-logo-pic {
+    display: block;
+    width: 70px;
+}
+
+.heading {
+    font-size: 20px;
+}
+
+.the-top-content {
+    padding: 100px 180px 30px;
+    display: flex;
+    flex-direction: row;
+    background: url("board.jpg") no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    font-size: 55px;
+    gap: 15px;
+}
+
+.interactive {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+#yay-button {
+    height: 52px;
+    width: 120px;
+    font-size: 18px;
+    font-weight: 500;
+    background: linear-gradient(to right bottom, #e9bbf6, #5c83df);
+    border: 2px solid white;
+    box-shadow: none;
+    border-radius: 20px;
+}
+
+#yay-button:hover{
+    box-shadow: 2px 2px 3px rgb(126, 44, 108);
+    cursor: pointer;
+}
+
+#yay-button:active {
+    transform: translate(1px, 1px);
+}
+
+#count {
+    font-size: 20px;
+    font-weight: 700;
+    text-shadow: 1px 1px 2px #ffffff;
+    color: purple;
+}
+
+
+#confetti-canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 100;
+}
+
+.some-pics {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.picture-one {
+    width: 40%;
+    margin-left: auto;
+    padding-bottom: 20px;
+    transform: rotate(2deg);
+}
+
+.picture-two {
+    width: 70%;
+    margin-right: auto;
+    transform: rotate(-2deg);
+}
+
+.irs-pic-background {
+    padding: 7px 7px 25px;
+    background-color: white;
+}
+
+.irs-pic {
+    max-width: 100%;
+    display: block;
+}
+
+.some-tape {
+    position: relative;
+}
+
+.some-tape::before, .tape::after {
+    background: rgba(255, 255, 235, 0.6);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+    content: "";
+    display: block;
+    height: 30px;
+    position: absolute;
+    margin: auto;
+    width: 100px;
+    z-index: 10;
+}
+
+.some-tape-type-1::before {
+    left: 50%;
+    margin-left: -50px;
+    top: -10px;
+    transform: rotate(3deg);
+}
+
+.some-tape-type-2::before {
+    left: 50%;
+    margin-left: -50px;
+    top: -10px;
+}
+
+.the-bottom-content {
+    padding: 40px 180px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.first-row, .second-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+}
+
+.description {
+    padding: 15px;
+    background-color: rgb(255, 227, 192);
+}
+
+.first-row-pic {
+    display: block;
+    padding: 3px;
+    background-color: white;
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+.second-row-left {
+    display: flex;
+    flex-direction: column;
+    transform: rotate(-3deg);
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+.calendar-binders {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 25px;
+    margin-bottom: -15px;
+    z-index: 10;
+}
+
+.binder {
+    background-color: rgb(168, 113, 68);
+    height: 20px;
+    width: 8px;
+    border-radius: 3px;
+}
+
+.space {
+    background-color: rgb(249, 213, 170);
+    display: flex;
+    align-self: stretch;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom: 3px solid  rgb(177, 177, 177);
+}
+
+.open-sessions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: whitesmoke;
+    border-style: solid;
+    border-color: rgb(177, 177, 177);
+    border-width: 3px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.join {
+    padding: 5px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.details {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    
+}
+
+.date {
+    background-color: rgb(255, 227, 192);
+    padding: 4px 10px;
+    border-radius: 4px;
+}
+
+.mark {
+    padding: 5px;
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 20px;
+}
